@@ -3,11 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 
 function Header() {
-  return (
-    <header className="relative p-16 text-center">
+return (
+    <header className="relative p-16 text-center bg-black">
         <Link href="/">
-            <h1 className="text-4xl mb-5">StoryTeller</h1>
-            <div className="space-x-5 text-3xl lg:text-5xl text-white">
+            <h1 className="text-6xl mb-5 bg-gradient-to-r from-[#5295d2] from-10% via-[#52b5d2] via-30% to-[#54d6c6] to-90% text-transparent bg-clip-text">StoryTeller</h1>
+            <div className="space-x-5 h-20 lg:h-24 text-4xl lg:text-6xl bg-gradient-to-r from-[#5295d2] from-10% via-[#52b5d2] via-30% to-[#54d6c6] to-90% text-transparent bg-clip-text">
                 <h2>Seeing Life Through Stories</h2>
                 
             </div>
@@ -25,7 +25,7 @@ function Header() {
             </Link>
         </div>
     </header>
-  )
+)
 }
 
 export default Header                            
